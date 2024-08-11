@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+    <title>My first project</title>
+</head>
+
+<body>
+    <div class="setting-box">
+        <div class="spin">
+            <i class="fa fa-gear"></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h5>Colors</h5>
+                <div class="spans">
+                    <span class="active" data-color="#FF9800"></span>
+                    <span data-color="#E91E63"></span>
+                    <span data-color="#009688"></span>
+                    <span data-color="#03A9F4"></span>
+                    <span data-color="#4CAF50"></span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h5>Random Background.</h5>
+                <div class="bg-colors">
+                    <button class="active" data-option="yes">Yes </button>
+                    <button data-option="no">No </button>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets.</h4>
+                <div class="bullets-option">
+                    <button class="active yes" data-display="show">Yes</button>
+                    <button class="no" data-display="hide">No</button>
+                </div>
+            </div>
+            <button class="reset-options">Reset All </button>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <h3 class="logo">special design</h3>
+            <ul class="links">
+                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="landing">
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>We Are <span>Creative</span> Agency</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nihil ullam nesciunt quidem
+                iste
+            </p>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="container">
+            <h2>our Skills</h2>
+            <div class="skill">
+                <span>
+                    HTML
+                </span>
+                <div class="content">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <span>CSS</span>
+                <div class="content">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="content">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Python</span>
+                <div class="content">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <span>PHP</span>
+                <div class="content">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <span>MySQL</span>
+                <div class="content">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="imgs/01.jpg" alt="Image One">
+                <img src="imgs/02.jpg" alt="Image Two">
+                <img src="imgs/03.jpg" alt="Image Three">
+                <img src="imgs/04.jpg" alt="Image Four">
+                <img src="imgs/05.jpg" alt="Image Five">
+                <img src="imgs/06.jpg" alt="">
+                <img src="imgs/07.jpg" alt="">
+                <img src="imgs/08.jpg" alt="">
+                <img src="imgs/09.jpg" alt="">
+                <img src="imgs/10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".landing">
+            <div class="tooltip">landing</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h3></h3><img src=""><span class="close-button">X</span>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
