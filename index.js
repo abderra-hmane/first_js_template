@@ -101,6 +101,17 @@ bullets.forEach(bullet => {
         });
     });
 });
+// links
+document.querySelectorAll(".header .links a").forEach(bullet => {
+    bullet.addEventListener("click", e => {
+        e.preventDefault();
+        document.querySelector(e.target.dataset.section).scrollIntoView({
+
+            behavior: 'smooth'
+
+        });
+    });
+});
 
 
 RemoveActiveClicked(colors);
